@@ -16,6 +16,11 @@ approach and time/space complexity in the header comment.
 - [Group Anagrams](GroupAnagrams.java) — LeetCode 49, Medium — sorted key + HashMap, O(n * k log k)
 - [Top K Frequent Elements](TopKFrequentElements.java) — LeetCode 347, Medium — HashMap + min-heap of size k, O(n log k)
 
+### Day 2 — 14 Nov 2026 — Two Pointers
+- [Valid Palindrome](ValidPalindrome.java) — LeetCode 125, Easy — two pointers, skip non-alphanumeric, O(n)
+- [Two Sum II - Input Array Is Sorted](TwoSumII.java) — LeetCode 167, Medium — two pointers on sorted array, O(n)
+- [Container With Most Water](ContainerWithMostWater.java) — LeetCode 11, Medium — two pointers, move the shorter line, O(n)
+
 ## Note
 
 Solutions here are reference solutions written for learning and
