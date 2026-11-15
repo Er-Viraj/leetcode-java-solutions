@@ -19,6 +19,7 @@ visible without opening the file.
 | --- | --- | --- | --- |
 | 1 | 13 Nov 2026 | Arrays & Hashing | 3 |
 | 2 | 14 Nov 2026 | Two Pointers | 3 |
+| 3 | 15 Nov 2026 | Sliding Window | 3 |
 
 ## Arrays & Hashing
 
@@ -35,6 +36,14 @@ visible without opening the file.
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | Two pointers, move the shorter line | [0011-container-with-most-water-medium.java](two-pointers/0011-container-with-most-water-medium.java) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two pointers, skip non-alphanumeric | [0125-valid-palindrome-easy.java](two-pointers/0125-valid-palindrome-easy.java) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | Two pointers on sorted array | [0167-two-sum-ii-input-array-is-sorted-medium.java](two-pointers/0167-two-sum-ii-input-array-is-sorted-medium.java) |
+
+## Sliding Window
+
+| # | Problem | Difficulty | Approach | Solution |
+| --- | --- | --- | --- | --- |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | Sliding window + last-index map | [0003-longest-substring-without-repeating-characters-medium.java](sliding-window/0003-longest-substring-without-repeating-characters-medium.java) |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Track min price, best profit so far | [0121-best-time-to-buy-and-sell-stock-easy.java](sliding-window/0121-best-time-to-buy-and-sell-stock-easy.java) |
+| 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | Sliding window, at most k replacements | [0424-longest-repeating-character-replacement-medium.java](sliding-window/0424-longest-repeating-character-replacement-medium.java) |
 
 ## Note
 
