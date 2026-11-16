@@ -20,6 +20,7 @@ visible without opening the file.
 | 1 | 13 Nov 2026 | Arrays & Hashing | 3 |
 | 2 | 14 Nov 2026 | Two Pointers | 3 |
 | 3 | 15 Nov 2026 | Sliding Window | 3 |
+| 4 | 16 Nov 2026 | Stack | 3 |
 
 ## Arrays & Hashing
 
@@ -45,7 +46,15 @@ visible without opening the file.
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Track min price, best profit so far | [0121-best-time-to-buy-and-sell-stock-easy.java](sliding-window/0121-best-time-to-buy-and-sell-stock-easy.java) |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | Sliding window, at most k replacements | [0424-longest-repeating-character-replacement-medium.java](sliding-window/0424-longest-repeating-character-replacement-medium.java) |
 
+## Stack
+
+| # | Problem | Difficulty | Approach | Solution |
+| --- | --- | --- | --- | --- |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | Stack of openers, match on closer | [0020-valid-parentheses-easy.java](stack/0020-valid-parentheses-easy.java) |
+| 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | Stack of operands, apply operator to top two | [0150-evaluate-reverse-polish-notation-medium.java](stack/0150-evaluate-reverse-polish-notation-medium.java) |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | Second stack tracking min at each level | [0155-min-stack-medium.java](stack/0155-min-stack-medium.java) |
+
 ## Note
 
-Reference solutions for learning and revision. Nothing here is submitted to
-LeetCode on my behalf — I solve there myself.
+Reference solutions for learning and revision. These solutions are also
+submitted on LeetCode under `engineer_viraj`.
