@@ -1,17 +1,13 @@
 # LeetCode Solutions in Java
 
 Daily LeetCode practice in Java — 2–3 problems a day, topic by topic.
-I solve on LeetCode myself under `engineer_viraj`; this repo is my organised
-reference copy, with the approach and complexity written on each file so I can
-revise fast before interviews.
+I solve on LeetCode myself under `engineer_viraj`; this repo is my organised reference copy, with the approach and complexity written on each file so I can revise fast before interviews.
 
 By Viraj Kumar ([engineer-viraj](https://github.com/engineer-viraj)).
 
 ## How it's organised
 
-One folder per topic. Inside a folder, files are named
-`NNNN-problem-name-difficulty.java`, so the problem number and difficulty are
-visible without opening the file.
+One folder per topic. Inside a folder, files are named `NNNN-problem-name-difficulty.java`, so the problem number and difficulty are visible without opening the file.
 
 ## Progress
 
@@ -21,6 +17,7 @@ visible without opening the file.
 | 2 | 14 Nov 2026 | Two Pointers | 3 |
 | 3 | 15 Nov 2026 | Sliding Window | 3 |
 | 4 | 16 Nov 2026 | Stack | 3 |
+| 5 | 17 Nov 2026 | Binary Search | 3 |
 
 ## Arrays & Hashing
 
@@ -54,7 +51,14 @@ visible without opening the file.
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | Stack of operands, apply operator to top two | [0150-evaluate-reverse-polish-notation-medium.java](stack/0150-evaluate-reverse-polish-notation-medium.java) |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | Second stack tracking min at each level | [0155-min-stack-medium.java](stack/0155-min-stack-medium.java) |
 
+## Binary Search
+
+| # | Problem | Difficulty | Approach | Solution |
+| --- | --- | --- | --- | --- |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | Binary search, one half is always sorted | [0033-search-in-rotated-sorted-array-medium.java](binary-search/0033-search-in-rotated-sorted-array-medium.java) |
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | Binary search on the rotation point | [0153-find-minimum-in-rotated-sorted-array-medium.java](binary-search/0153-find-minimum-in-rotated-sorted-array-medium.java) |
+| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | Classic binary search | [0704-binary-search-easy.java](binary-search/0704-binary-search-easy.java) |
+
 ## Note
 
-Reference solutions for learning and revision. These solutions are also
-submitted on LeetCode under `engineer_viraj`.
+Reference solutions for learning and revision. These solutions are also submitted on LeetCode under `engineer_viraj`.
