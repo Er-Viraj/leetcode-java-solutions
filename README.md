@@ -1,13 +1,17 @@
 # LeetCode Solutions in Java
 
 Daily LeetCode practice in Java — 2–3 problems a day, topic by topic.
-I solve on LeetCode myself under `engineer_viraj`; this repo is my organised reference copy, with the approach and complexity written on each file so I can revise fast before interviews.
+I solve on LeetCode myself under `engineer_viraj`; this repo is my organised
+reference copy, with the approach and complexity written on each file so I can
+revise fast before interviews.
 
 By Viraj Kumar ([engineer-viraj](https://github.com/engineer-viraj)).
 
 ## How it's organised
 
-One folder per topic. Inside a folder, files are named `NNNN-problem-name-difficulty.java`, so the problem number and difficulty are visible without opening the file.
+One folder per topic. Inside a folder, files are named
+`NNNN-problem-name-difficulty.java`, so the problem number and difficulty are
+visible without opening the file.
 
 ## Progress
 
@@ -18,6 +22,7 @@ One folder per topic. Inside a folder, files are named `NNNN-problem-name-diffic
 | 3 | 15 Nov 2026 | Sliding Window | 3 |
 | 4 | 16 Nov 2026 | Stack | 3 |
 | 5 | 17 Nov 2026 | Binary Search | 3 |
+| 6 | 18 Nov 2026 | Linked List | 3 |
 
 ## Arrays & Hashing
 
@@ -59,6 +64,15 @@ One folder per topic. Inside a folder, files are named `NNNN-problem-name-diffic
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | Binary search on the rotation point | [0153-find-minimum-in-rotated-sorted-array-medium.java](binary-search/0153-find-minimum-in-rotated-sorted-array-medium.java) |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | Classic binary search | [0704-binary-search-easy.java](binary-search/0704-binary-search-easy.java) |
 
+## Linked List
+
+| # | Problem | Difficulty | Approach | Solution |
+| --- | --- | --- | --- | --- |
+| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | Two pointers with a fixed gap, dummy head | [0019-remove-nth-node-from-end-of-list-medium.java](linked-list/0019-remove-nth-node-from-end-of-list-medium.java) |
+| 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | Find middle, reverse second half, weave halves | [0143-reorder-list-medium.java](linked-list/0143-reorder-list-medium.java) |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | Iterative three-pointer reversal | [0206-reverse-linked-list-easy.java](linked-list/0206-reverse-linked-list-easy.java) |
+
 ## Note
 
-Reference solutions for learning and revision. These solutions are also submitted on LeetCode under `engineer_viraj`.
+Reference solutions for learning and revision. These solutions are also
+submitted on LeetCode under `engineer_viraj`.
