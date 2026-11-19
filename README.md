@@ -23,6 +23,7 @@ visible without opening the file.
 | 4 | 16 Nov 2026 | Stack | 3 |
 | 5 | 17 Nov 2026 | Binary Search | 3 |
 | 6 | 18 Nov 2026 | Linked List | 3 |
+| 7 | 19 Nov 2026 | Trees | 3 |
 
 ## Arrays & Hashing
 
@@ -71,6 +72,14 @@ visible without opening the file.
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | Two pointers with a fixed gap, dummy head | [0019-remove-nth-node-from-end-of-list-medium.java](linked-list/0019-remove-nth-node-from-end-of-list-medium.java) |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | Find middle, reverse second half, weave halves | [0143-reorder-list-medium.java](linked-list/0143-reorder-list-medium.java) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | Iterative three-pointer reversal | [0206-reverse-linked-list-easy.java](linked-list/0206-reverse-linked-list-easy.java) |
+
+## Trees
+
+| # | Problem | Difficulty | Approach | Solution |
+| --- | --- | --- | --- | --- |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | In-order traversal, strictly increasing | [0098-validate-binary-search-tree-medium.java](trees/0098-validate-binary-search-tree-medium.java) |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | BFS, one queue pass per level | [0102-binary-tree-level-order-traversal-medium.java](trees/0102-binary-tree-level-order-traversal-medium.java) |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Recursion, swap children at every node | [0226-invert-binary-tree-easy.java](trees/0226-invert-binary-tree-easy.java) |
 
 ## Note
 
