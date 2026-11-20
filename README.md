@@ -24,6 +24,7 @@ visible without opening the file.
 | 5 | 17 Nov 2026 | Binary Search | 3 |
 | 6 | 18 Nov 2026 | Linked List | 3 |
 | 7 | 19 Nov 2026 | Trees | 3 |
+| 8 | 20 Nov 2026 | Dynamic Programming | 3 |
 
 ## Arrays & Hashing
 
@@ -80,6 +81,14 @@ visible without opening the file.
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | In-order traversal, strictly increasing | [0098-validate-binary-search-tree-medium.java](trees/0098-validate-binary-search-tree-medium.java) |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | BFS, one queue pass per level | [0102-binary-tree-level-order-traversal-medium.java](trees/0102-binary-tree-level-order-traversal-medium.java) |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Recursion, swap children at every node | [0226-invert-binary-tree-easy.java](trees/0226-invert-binary-tree-easy.java) |
+
+## Dynamic Programming
+
+| # | Problem | Difficulty | Approach | Solution |
+| --- | --- | --- | --- | --- |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Fibonacci recurrence, two rolling variables | [0070-climbing-stairs-easy.java](dp/0070-climbing-stairs-easy.java) |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | Take-or-skip DP, two rolling variables | [0198-house-robber-medium.java](dp/0198-house-robber-medium.java) |
+| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | Bottom-up DP, fewest coins per amount | [0322-coin-change-medium.java](dp/0322-coin-change-medium.java) |
 
 ## Note
 
