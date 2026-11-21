@@ -25,6 +25,7 @@ visible without opening the file.
 | 6 | 18 Nov 2026 | Linked List | 3 |
 | 7 | 19 Nov 2026 | Trees | 3 |
 | 8 | 20 Nov 2026 | Dynamic Programming | 3 |
+| 9 | 21 Nov 2026 | Greedy | 3 |
 
 ## Arrays & Hashing
 
@@ -89,6 +90,14 @@ visible without opening the file.
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Fibonacci recurrence, two rolling variables | [0070-climbing-stairs-easy.java](dp/0070-climbing-stairs-easy.java) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | Take-or-skip DP, two rolling variables | [0198-house-robber-medium.java](dp/0198-house-robber-medium.java) |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | Bottom-up DP, fewest coins per amount | [0322-coin-change-medium.java](dp/0322-coin-change-medium.java) |
+
+## Greedy
+
+| # | Problem | Difficulty | Approach | Solution |
+| --- | --- | --- | --- | --- |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | Greedy, farthest reachable index | [0055-jump-game-medium.java](greedy/0055-jump-game-medium.java) |
+| 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | Greedy, skip failed stretches, check total | [0134-gas-station-medium.java](greedy/0134-gas-station-medium.java) |
+| 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | Sort both, smallest sufficient cookie per child | [0455-assign-cookies-easy.java](greedy/0455-assign-cookies-easy.java) |
 
 ## Note
 
