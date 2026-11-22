@@ -24,3 +24,4 @@ class Solution {
         sink(grid, r, c - 1);
     }
 }
+
