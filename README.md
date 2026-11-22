@@ -23,9 +23,11 @@ visible without opening the file.
 | 4 | 16 Nov 2026 | Stack | 3 |
 | 5 | 17 Nov 2026 | Binary Search | 3 |
 | 6 | 18 Nov 2026 | Linked List | 3 |
-| 7 | 19 Nov 2026 | Trees | 3 |
+ | 7 | 19 Nov 2026 | Trees | 3 |
 | 8 | 20 Nov 2026 | Dynamic Programming | 3 |
 | 9 | 21 Nov 2026 | Greedy | 3 |
+| 10 | 22 Nov 2026 | Graphs | 3 |
+
 
 ## Arrays & Hashing
 
@@ -98,6 +100,14 @@ visible without opening the file.
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | Greedy, farthest reachable index | [0055-jump-game-medium.java](greedy/0055-jump-game-medium.java) |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | Greedy, skip failed stretches, check total | [0134-gas-station-medium.java](greedy/0134-gas-station-medium.java) |
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | Sort both, smallest sufficient cookie per child | [0455-assign-cookies-easy.java](greedy/0455-assign-cookies-easy.java) |
+
+## Graphs
+
+| # | Problem | Difficulty | Approach | Solution |
+| --- | --- | --- | --- | --- |
+| 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | DFS + map from original node to its clone | [0133-clone-graph-medium.java](graphs/0133-clone-graph-medium.java) |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | DFS, sink each island in place | [0200-number-of-islands-medium.java](graphs/0200-number-of-islands-medium.java) |
+| 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | Easy | DFS from the start pixel, recoloring marks visited | [0733-flood-fill-easy.java](graphs/0733-flood-fill-easy.java) |
 
 ## Note
 
