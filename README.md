@@ -28,6 +28,7 @@ visible without opening the file.
 | 9 | 21 Nov 2026 | Greedy | 3 |
 | 10 | 22 Nov 2026 | Graphs | 3 |
 | 11 | 23 Nov 2026 | Heap / Priority Queue | 3 |
+| 12 | 24 Nov 2026 | Backtracking | 3 |
 
 ## Arrays & Hashing
 
@@ -116,6 +117,14 @@ visible without opening the file.
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | Min-heap of size k, root is the kth largest | [0215-kth-largest-element-in-an-array-medium.java](heap/0215-kth-largest-element-in-an-array-medium.java) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | Max-heap of size k by squared distance | [0973-k-closest-points-to-origin-medium.java](heap/0973-k-closest-points-to-origin-medium.java) |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | Easy | Max-heap, smash the two heaviest, push back the difference | [1046-last-stone-weight-easy.java](heap/1046-last-stone-weight-easy.java) |
+
+## Backtracking
+
+| # | Problem | Difficulty | Approach | Solution |
+| --- | --- | --- | --- | --- |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | Backtracking, used array, record full paths | [0046-permutations-medium.java](backtracking/0046-permutations-medium.java) |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | Backtracking, record every node, start index avoids duplicates | [0078-subsets-medium.java](backtracking/0078-subsets-medium.java) |
+| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | Easy | Try all 720 times, match set-bit count to turnedOn | [0401-binary-watch-easy.java](backtracking/0401-binary-watch-easy.java) |
 
 ## Note
 
