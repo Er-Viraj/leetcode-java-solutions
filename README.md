@@ -29,6 +29,7 @@ visible without opening the file.
 | 10 | 22 Nov 2026 | Graphs | 3 |
 | 11 | 23 Nov 2026 | Heap / Priority Queue | 3 |
 | 12 | 24 Nov 2026 | Backtracking | 3 |
+| 13 | 25 Nov 2026 | Bit Manipulation | 3 |
 
 ## Arrays & Hashing
 
@@ -125,6 +126,14 @@ visible without opening the file.
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | Backtracking, used array, record full paths | [0046-permutations-medium.java](backtracking/0046-permutations-medium.java) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | Backtracking, record every node, start index avoids duplicates | [0078-subsets-medium.java](backtracking/0078-subsets-medium.java) |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | Easy | Try all 720 times, match set-bit count to turnedOn | [0401-binary-watch-easy.java](backtracking/0401-binary-watch-easy.java) |
+
+## Bit Manipulation
+
+| # | Problem | Difficulty | Approach | Solution |
+| --- | --- | --- | --- | --- |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | XOR the whole array, pairs cancel | [0136-single-number-easy.java](bit-manipulation/0136-single-number-easy.java) |
+| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | Medium | Two masks count each bit mod 3 | [0137-single-number-ii-medium.java](bit-manipulation/0137-single-number-ii-medium.java) |
+| 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Medium | XOR for sum, AND + shift for carry, repeat | [0371-sum-of-two-integers-medium.java](bit-manipulation/0371-sum-of-two-integers-medium.java) |
 
 ## Note
 
