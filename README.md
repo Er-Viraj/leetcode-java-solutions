@@ -30,6 +30,7 @@ visible without opening the file.
 | 11 | 23 Nov 2026 | Heap / Priority Queue | 3 |
 | 12 | 24 Nov 2026 | Backtracking | 3 |
 | 13 | 25 Nov 2026 | Bit Manipulation | 3 |
+| 14 | 26 Nov 2026 | Intervals | 3 |
 
 ## Arrays & Hashing
 
@@ -134,6 +135,14 @@ visible without opening the file.
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | XOR the whole array, pairs cancel | [0136-single-number-easy.java](bit-manipulation/0136-single-number-easy.java) |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | Medium | Two masks count each bit mod 3 | [0137-single-number-ii-medium.java](bit-manipulation/0137-single-number-ii-medium.java) |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Medium | XOR for sum, AND + shift for carry, repeat | [0371-sum-of-two-integers-medium.java](bit-manipulation/0371-sum-of-two-integers-medium.java) |
+
+## Intervals
+
+| # | Problem | Difficulty | Approach | Solution |
+| --- | --- | --- | --- | --- |
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | Sort by start, sweep and extend the last merged interval | [0056-merge-intervals-medium.java](intervals/0056-merge-intervals-medium.java) |
+| 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | One pass in three phases: before, merge, after | [0057-insert-interval-medium.java](intervals/0057-insert-interval-medium.java) |
+| 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | Single scan, group runs of consecutive numbers | [0228-summary-ranges-easy.java](intervals/0228-summary-ranges-easy.java) |
 
 ## Note
 
