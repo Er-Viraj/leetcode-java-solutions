@@ -31,6 +31,7 @@ visible without opening the file.
 | 12 | 24 Nov 2026 | Backtracking | 3 |
 | 13 | 25 Nov 2026 | Bit Manipulation | 3 |
 | 14 | 26 Nov 2026 | Intervals | 3 |
+| 15 | 27 Nov 2026 | Strings | 3 |
 
 ## Arrays & Hashing
 
@@ -143,6 +144,14 @@ visible without opening the file.
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | Sort by start, sweep and extend the last merged interval | [0056-merge-intervals-medium.java](intervals/0056-merge-intervals-medium.java) |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | One pass in three phases: before, merge, after | [0057-insert-interval-medium.java](intervals/0057-insert-interval-medium.java) |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | Single scan, group runs of consecutive numbers | [0228-summary-ranges-easy.java](intervals/0228-summary-ranges-easy.java) |
+
+## Strings
+
+| # | Problem | Difficulty | Approach | Solution |
+| --- | --- | --- | --- | --- |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | Expand around every centre, keep the longest span | [0005-longest-palindromic-substring-medium.java](strings/0005-longest-palindromic-substring-medium.java) |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | One 26-slot count array, +1 for s, -1 for t, all zeros | [0242-valid-anagram-easy.java](strings/0242-valid-anagram-easy.java) |
+| 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | Expand around every centre, count each valid expansion | [0647-palindromic-substrings-medium.java](strings/0647-palindromic-substrings-medium.java) |
 
 ## Note
 
