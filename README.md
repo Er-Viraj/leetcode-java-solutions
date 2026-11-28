@@ -32,6 +32,7 @@ visible without opening the file.
 | 13 | 25 Nov 2026 | Bit Manipulation | 3 |
 | 14 | 26 Nov 2026 | Intervals | 3 |
 | 15 | 27 Nov 2026 | Strings | 3 |
+ | 16 | 28 Nov 2026 | Trie | 3 |
 
 ## Arrays & Hashing
 
@@ -152,6 +153,14 @@ visible without opening the file.
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | Expand around every centre, keep the longest span | [0005-longest-palindromic-substring-medium.java](strings/0005-longest-palindromic-substring-medium.java) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | One 26-slot count array, +1 for s, -1 for t, all zeros | [0242-valid-anagram-easy.java](strings/0242-valid-anagram-easy.java) |
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | Expand around every centre, count each valid expansion | [0647-palindromic-substrings-medium.java](strings/0647-palindromic-substrings-medium.java) |
+
+## Trie
+
+| # | Problem | Difficulty | Approach | Solution |
+| --- | --- | --- | --- | --- |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | Shrink prefix until it fits each string | [0014-longest-common-prefix-easy.java](trie/0014-longest-common-prefix-easy.java) |
+| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | Trie nodes, 26 children each | [0208-implement-trie-prefix-tree-medium.java](trie/0208-implement-trie-prefix-tree-medium.java) |
+| 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | Trie + recursive '.' search | [0211-design-add-and-search-words-data-structure-medium.java](trie/0211-design-add-and-search-words-data-structure-medium.java) |
 
 ## Note
 
